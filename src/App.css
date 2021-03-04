@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 0 5rem;
+    max-width: 1200px;
+}
+
+.search {
+    display: block;
+    width: 50%;
+    margin: 1rem 0;
+    height: 2rem;
+    padding: 5px;
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        margin: 0rem auto;
+        padding: 0 2rem;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .container {
+        margin: 0rem auto;
+        padding: 0 0.5rem;
+    }
+}
